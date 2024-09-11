@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 
+    border: 1PX solid black;
+}
+html{
+    scroll-behavior: smooth;
 }
 a{
     display: block;
@@ -84,4 +88,56 @@ li{
 .main button:hover{
     background-color: white;
     color: black;
+}
+.about{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.about h2{
+    font-size: 30px;
+    color: aquamarine;
+}
+.about h1{
+    font-size: 50px;
+}
+.about .contents{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+.about .left{
+    width: 400px;
+    height: 500px;
+
+}
+.about .left img{
+    width: 400px;
+    height: 500px;
+}
+.about .right{
+    width: 800px;
+    height: 500px;
+}
+.about .right h3{
+    font-size: 22px;
+    color: aqua;
+}
+.about .right li{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-github{
+    color: black;
+}
+.fa-facebook{
+    color: blue
 }
